@@ -4,8 +4,7 @@ from WIFI_CONFIG import PASSWORD, SSID
 
 from ota import OTAUpdater
 
-token = "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"
-firmware_url = "https://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@raw.githubusercontent.com/kubu/pico_terminal/master"
+firmware_url = "https://raw.githubusercontent.com/kubu/pico_terminal/master"
 
 ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "main.py")
 ota_updater.download_and_install_update_if_available()
