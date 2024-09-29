@@ -4,7 +4,7 @@ from WIFI_CONFIG import PASSWORD, SSID
 
 from ota import OTAUpdater
 
-firmware_url = "https://raw.githubusercontent.com/kubu/pico_terminal/master"
+firmware_url = "https://raw.githubusercontent.com/kubu/pico_terminal/master/"
 
 ota_updater = OTAUpdater(SSID, PASSWORD, firmware_url, "main.py")
 ota_updater.download_and_install_update_if_available()
