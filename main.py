@@ -175,7 +175,7 @@ def mainmenu():
             display.draw_text(
                 90,
                 text_vpos,  # display.height // 2 - text_width // 2,
-                str(POWER),
+                str(POWER) + "  ",
                 font,
                 rotate=0,
                 invert=False,
